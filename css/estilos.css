@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header
+{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+    
+}
+
+footer{
+    width: 100%;
+    background: :#202020;
+    color: white;
+    padding:40px;
+    
+}
+.contenedor-all
+{
+    width: :100%;
+    max-width: 2000px;
+}
+.contenedor
+    {
+       
+         display:flex;
+        justify-content:space-between;
+        
+    }
+.columna1
+{
+    max-width: 340px;
+    margin: auto;
+    justify-content:space-between;
+}
+.columna1 h1{
+    
+
+font-size:26px;
+}
+{
+    width: 98;
+    margin: auto;
+    
+}
+.columna1 p
+{
+  font-size: 15px;
+    color: :#C7C7C7;
+    margin-top: 20px;
+    
+}
+h1
+
+{
+    float:left;
+        
+}
+header .contenedor
+{
+    display: table;
+}
+section
+{
+    width: 100%;
+    margin-bottom: 25px;
+        
+}
+#bienbenidos
+{
+    text-align: center;
+}
+footer .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    
+     background: #333;
+    
+
+    color: #fff;
+    top: 100%;
+    left: 100%;
+    height: px;
+}
+
+.copy
+{
+font-size: 20px;
+}
+.sociales
+{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.sociales h1{
+  font-size: 22px;  
+}
+.sociales a{
+    color: #00FF40;
+    text-decoration: none;
+    
+}
+.sociales .row{
+    margin-top: 30px;
+    display: flex;
+    
+}
+.row a
+{
+    width: 36px;
+    height: 35px;
+    
+}
+.row label{
+
+    margin-left: 20px;
+    color:#C7C7C7;
+    
+}
+.comlumna3
+{
+    max-width: 400px;
+    
+}
+.comlumna3 h1{
+    font-size: 26px;
+}
+.row2{
+    margin-top: 25px;
+    
+}
+.row2 label {
+  margin-left: 20px; 
+    max-width: 150px;
+}
+
+.container-footer{
+    max-width: 100%;
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.copyright{
+    color: #C7C7C7;
+    font-weight: bold;
+}
+@media (min-width:768px)
+{
+.sociales
+    {
+        width: auto;
+        
+    }
+   footer .contenedor
+    {
+        justify-content: space-between;
+        
+    }
+    
+}
+@media screen and  (max-width:1100px)
+{
+    footer .contenedor{
+        
+        flex-wrap: wrap;
+        
+    }  .
+   
+}

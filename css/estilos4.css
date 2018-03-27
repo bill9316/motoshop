@@ -1,0 +1,46 @@
+body{
+background-image: url(thumb2-triumph-bonneville-2017-luxury-motorcycle-black-motorcycle-chopper.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;      
+}
+form{
+    width: 950px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 7px;
+    font-family: monospace;
+    
+}
+h3{
+    color: azure;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+   
+    
+}
+p{
+    color: beige;
+   text-align: justify;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20;
+    
+}
+h2{
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+@media (max-width:400px){
+    form{
+        width: 100%;
+        
+    }
+}
+
